@@ -1,7 +1,7 @@
 {
-  "name": "vidjot",
+  "name": "got",
   "version": "1.0.0",
-  "description": "New Vidjot 2019",
+  "description": "New GOT 2019",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

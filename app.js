@@ -23,10 +23,6 @@ mongoose.connect(mongoURI, {
 .then(() => console.log('MongoDb connected...'))
 .catch( err => console.log(err));
 
-//models
-require('./models/Character')
-const Character = mongoose.model('character')
-
 //middlwares
 app.use(express.static('public'))
 

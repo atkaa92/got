@@ -26,12 +26,6 @@ router.get('/logout', (req, res) => {
     res.redirect('/users/login');
 })
 
-// app.post('/users/login', 
-//   passport.authenticate('local', { failureRedirect: '/login' }),
-//   function(req, res) {
-//     res.redirect('/');
-// });
-
 router.post('/register', (req, res) => {
     let errors = [];
     if (!req.body.name) errors.push({text:'Please add a name'}) ;
